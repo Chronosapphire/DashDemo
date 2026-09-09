@@ -1,0 +1,16 @@
+/* src/styles/about.css */
+.about-page {
+  max-width: 640px;
+}
+
+.about-page h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.about-page p {
+  font-size: 0.9rem;
+  color: #d1d5db;
+  margin-bottom: 0.5rem;
+}

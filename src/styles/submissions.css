@@ -1,0 +1,49 @@
+/* src/styles/submissions.css */
+.submissions-page {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.submissions-page h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.submissions-description {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+.submissions-table-wrapper {
+  background: #111b12;
+  border-radius: 0.75rem;
+  border: 1px solid #1e3323;
+  padding: 0.75rem;
+}
+
+.submissions-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.submissions-table th,
+.submissions-table td {
+  padding: 0.45rem 0.5rem;
+  border-bottom: 1px solid #111827;
+}
+
+.submissions-table th {
+  text-align: left;
+  font-weight: 500;
+  color: #a3b7a2;
+}
+
+.submission-row {
+  cursor: pointer;
+}
+
+.submission-row:hover {
+  background: #162419;
+}
